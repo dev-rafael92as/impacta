@@ -1,0 +1,17 @@
+### Listar todos os usuários
+GET http://localhost:3000/users
+
+### Buscar usuário por id
+GET http://localhost:3000/users/2
+
+### Criar novo usuário
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Barros",
+  "email": "barros@email.com"
+}
+
+### Remover usuário por id
+DELETE http://localhost:3000/users/1
